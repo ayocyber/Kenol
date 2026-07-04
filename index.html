@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenol — Perception is Reality.</title>
+<meta name="description" content="Kenol is a brand communication and design agency. We build brand identities, communication systems, and visual assets that shape how audiences perceive businesses.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Kenol Design Agency">
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/">
+
+<!-- Favicons -->
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#0A0A0D">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kenol">
+<meta property="og:title" content="Kenol — Perception is Reality.">
+<meta property="og:description" content="We build brands that people see, feel, and remember.">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/">
+<meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kenol — Perception is Reality.">
+<meta name="twitter:description" content="We build brands that people see, feel, and remember.">
+<meta name="twitter:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/assets/img/og-image.png">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Kenol",
+  "alternateName": "Kenol Design Agency",
+  "description": "Kenol is a brand communication and design agency building brand identities, communication systems, and visual assets.",
+  "url": "https://REPLACE-WITH-YOUR-DOMAIN.com/",
+  "logo": "https://REPLACE-WITH-YOUR-DOMAIN.com/assets/img/favicon-512.png",
+  "email": "kennyolajirepro@gmail.com",
+  "areaServed": "Global"
+}
+</script>
+<script>
+  (function(){
+    try{
+      var t = localStorage.getItem('kenol-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    }catch(e){ document.documentElement.setAttribute('data-theme','dark'); }
+  })();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="#top" class="logo">KEN<span>OL</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="nav-cta">Get in Touch</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" aria-pressed="false">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7" stroke-linecap="round"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bgtext" aria-hidden="true">PERCEPTION</div>
+    <div class="wrap hero-inner reveal">
+      <div class="eyebrow">Kenol — Brand Communication &amp; Design</div>
+      <h1>Perception is <span class="accent">Reality.</span></h1>
+      <p class="hero-sub">We build brands that people see, feel, and remember — brand strategy, visual identity, and the communication systems that make it stick.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See Our Work</a>
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Selected Work</div>
+          <h2>The work leads.</h2>
+        </div>
+        <p class="side">A selection of brand, communication, and print work. Filter by discipline, or open a project for the full case study.</p>
+      </div>
+      <div class="filters reveal" id="filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Branding">Branding</button>
+        <button class="filter-btn" data-filter="Communication Design">Communication Design</button>
+        <button class="filter-btn" data-filter="Print Production">Print Production</button>
+      </div>
+    </div>
+    <div class="work-grid reveal" id="workGrid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="about-lede">We believe <span class="accent">perception is everything</span> — and we've built our entire practice around shaping it.</p>
+        <div class="about-body">
+          <p>From brand strategy to visual identity to the materials your audience actually holds, every decision we make is in service of one goal: making your brand impossible to ignore.</p>
+          <p>Kenol works with organizations who understand that how they're perceived is inseparable from how they perform — brand managers, founders, and comms teams who need the work to hold up under scrutiny, not just look good in a deck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">What We Do</div>
+          <h2>Three disciplines.</h2>
+        </div>
+      </div>
+      <div class="service-table reveal">
+        <div class="service-row">
+          <h3>Brand Strategy &amp; Identity</h3>
+          <p>Positioning, market research, logo design, and the visual identity systems that carry it.</p>
+        </div>
+        <div class="service-row">
+          <h3>Communication Design</h3>
+          <p>Marketing materials, digital content, social graphics, and packaging that keep the brand sharp everywhere it shows up.</p>
+        </div>
+        <div class="service-row">
+          <h3>Print Production</h3>
+          <p>Business cards, stationery, banners, and high-quality print solutions, produced to the same standard as everything else.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section id="clients">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Trusted By</div>
+          <h2>Organizations we've worked with.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="client-wall reveal" id="clientWall"></div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Reviews</div>
+          <h2>What clients say.</h2>
+        </div>
+      </div>
+      <div class="review-grid reveal" id="reviewGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-left reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2 style="margin-top:16px;">Ready to make your brand unforgettable?</h2>
+        <p>Tell us a little about the project and we'll get back to you. For a faster response, reach out directly on WhatsApp.</p>
+        <div class="contact-detail"><b>Email</b><a href="mailto:kennyolajirepro@gmail.com">kennyolajirepro@gmail.com</a></div>
+        <div class="contact-detail"><b>WhatsApp</b><a href="https://wa.me/2349163354637?text=Hi%20Kenol%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">+234 916 335 4637</a></div>
+        <div class="contact-detail"><b>Based in</b><span>Nigeria (WAT) — working with clients globally</span></div>
+      </div>
+      <form class="contact-right reveal" id="contactForm">
+        <div class="form-field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-company">Company</label>
+          <input type="text" id="cf-company" name="company">
+        </div>
+        <div class="form-field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="cf-brief">Brief description of project</label>
+          <textarea id="cf-brief" name="brief" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Enquiry</button>
+        <p class="form-note">This form opens your email client with the details filled in — it isn't wired to a backend yet. Once you're ready to collect enquiries directly, this can connect to a form service or your CRM.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<a class="wa-float" href="https://wa.me/2349163354637?text=Hi%20Kenol%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" aria-label="Message Kenol on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.14-.96-.31-1.65-.61-2.9-1.25-4.8-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.58.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.39-.24.65-.14.27.1 1.68.79 1.97.94.29.14.48.21.55.34.07.12.07.72-.17 1.4z"/></svg>
+</a>
+
+<!-- Case study dialog -->
+<div class="cs-overlay" id="csOverlay" role="dialog" aria-modal="true" aria-label="Case study">
+  <button class="cs-close" id="csClose" aria-label="Close case study">✕</button>
+  <div class="cs-panel" id="csPanel"></div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px;">KEN<span>OL</span></div>
+        <p>Kenol builds brand identities, communication systems, and visual assets that shape how audiences perceive businesses.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:kennyolajirepro@gmail.com">kennyolajirepro@gmail.com</a>
+        <a href="https://wa.me/2349163354637" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <div class="foot-wrap">
+      <span>© <span id="year"></span> Kenol Design Agency. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/data.js"></script>
+<script>
+  // ---- render portfolio grid ----
+  const workGrid = document.getElementById('workGrid');
+  function renderGrid(filter){
+    workGrid.innerHTML = '';
+    PROJECTS.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'work-card';
+      card.dataset.slug = p.slug;
+      card.dataset.category = p.category;
+      card.setAttribute('role', 'button');
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('aria-haspopup', 'dialog');
+      card.setAttribute('aria-label', `Open case study: ${p.title}`);
+      if (filter !== 'All' && p.category !== filter) card.classList.add('hidden');
+      card.innerHTML = `
+        <div class="work-cover" role="img" aria-label="${p.title} — ${p.category} project cover" style="background-image: var(--photo-grade), url('${p.image}')"></div>
+        <div class="work-meta">
+          <div>
+            <div class="tag">${p.category}</div>
+            <h3>${p.title}</h3>
+          </div>
+          <div class="work-arrow">↗</div>
+        </div>
+      `;
+      workGrid.appendChild(card);
+    });
+  }
+  renderGrid('All');
+
+  document.getElementById('filters').addEventListener('click', (e) => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderGrid(btn.dataset.filter);
+  });
+
+  // ---- case study dialog ----
+  const csOverlay = document.getElementById('csOverlay');
+  const csPanel = document.getElementById('csPanel');
+  const csClose = document.getElementById('csClose');
+  let lastFocusedEl = null;
+
+  function renderCaseStudy(slug){
+    const project = PROJECTS.find(p => p.slug === slug);
+    if (!project) return;
+    const idx = PROJECTS.findIndex(p => p.slug === slug);
+    const nextProject = PROJECTS[(idx + 1) % PROJECTS.length];
+
+    csPanel.innerHTML = `
+      <div class="wrap">
+        <div class="cs-hero-cover" role="img" aria-label="${project.title} case study cover" style="background-image: var(--photo-grade), url('${project.image}')"></div>
+        <div class="cs-hero-head">
+          <div class="eyebrow">${project.category}</div>
+          <h2 style="font-size:clamp(28px,4vw,44px); margin-top:14px;">${project.title}</h2>
+        </div>
+        <div class="cs-overview">
+          <div class="cs-overview-cell"><h4>Client</h4><p>${project.client}</p></div>
+          <div class="cs-overview-cell"><h4>Industry</h4><p>${project.industry}</p></div>
+          <div class="cs-overview-cell"><h4>Scope</h4><p>${project.category}</p></div>
+        </div>
+        <div class="cs-block"><h2>The Challenge</h2><p>${project.challenge}</p></div>
+        <div class="cs-block" style="padding-top:0;"><h2>What We Did</h2><p>${project.whatWeDid}</p></div>
+        <div class="eyebrow" style="margin-bottom:20px;">The Work</div>
+      </div>
+      <div class="cs-gallery">
+        <div class="cs-gallery-item wide" role="img" aria-label="${project.title} — work sample 1" style="background-image: var(--photo-grade), url('${project.gallery[0]}')"></div>
+        <div class="cs-gallery-item" role="img" aria-label="${project.title} — work sample 2" style="background-image: var(--photo-grade), url('${project.gallery[1]}')"></div>
+        <div class="cs-gallery-item" role="img" aria-label="${project.title} — work sample 3" style="background-image: var(--photo-grade), url('${project.gallery[2]}')"></div>
+      </div>
+      <div class="wrap">
+        <div class="cs-block"><h2>The Outcome</h2><p>${project.outcome}</p></div>
+        <div class="cs-next-inline">
+          <div class="eyebrow">Next Project</div>
+          <h3>${nextProject.title}</h3>
+          <button class="btn btn-primary" id="csNextBtn" data-slug="${nextProject.slug}">View Case Study →</button>
+        </div>
+      </div>
+    `;
+    csPanel.scrollTop = 0;
+    document.getElementById('csNextBtn').addEventListener('click', (e) => {
+      renderCaseStudy(e.currentTarget.dataset.slug);
+    });
+  }
+
+  function openCaseStudy(slug, triggerEl){
+    lastFocusedEl = triggerEl || document.activeElement;
+    renderCaseStudy(slug);
+    csOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    csClose.focus();
+  }
+  function closeCaseStudy(){
+    csOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+    if (lastFocusedEl) lastFocusedEl.focus();
+  }
+  csClose.addEventListener('click', closeCaseStudy);
+  csOverlay.addEventListener('click', (e) => { if (e.target === csOverlay) closeCaseStudy(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && csOverlay.classList.contains('open')) closeCaseStudy();
+  });
+
+  workGrid.addEventListener('click', (e) => {
+    const card = e.target.closest('.work-card');
+    if (!card) return;
+    openCaseStudy(card.dataset.slug, card);
+  });
+  workGrid.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const card = e.target.closest('.work-card');
+    if (!card) return;
+    e.preventDefault();
+    openCaseStudy(card.dataset.slug, card);
+  });
+
+  // ---- render reviews (draft placeholder testimonials — see data.js note) ----
+  const reviewGrid = document.getElementById('reviewGrid');
+  function initials(name){
+    return name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  }
+  REVIEWS.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'review-card';
+    card.innerHTML = `
+      <p class="review-quote">${r.quote}</p>
+      <div class="review-who">
+        <div class="review-avatar" aria-hidden="true">${initials(r.name)}</div>
+        <div>
+          <b>${r.name}</b>
+          <span>${r.role}</span>
+        </div>
+      </div>
+    `;
+    reviewGrid.appendChild(card);
+  });
+
+  // ---- render client logo wall (typographic placeholder — swap for vector logos) ----
+  const clientWall = document.getElementById('clientWall');
+  CLIENTS.forEach(name => {
+    const cell = document.createElement('div');
+    cell.className = 'client-cell';
+    cell.innerHTML = `<span>${name}</span>`;
+    clientWall.appendChild(cell);
+  });
+
+  // ---- contact form -> mailto fallback ----
+  document.getElementById('contactForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('cf-name').value;
+    const company = document.getElementById('cf-company').value;
+    const email = document.getElementById('cf-email').value;
+    const brief = document.getElementById('cf-brief').value;
+    const subject = encodeURIComponent(`New project enquiry — ${name}${company ? ' / ' + company : ''}`);
+    const body = encodeURIComponent(`Name: ${name}\nCompany: ${company}\nEmail: ${email}\n\nProject brief:\n${brief}`);
+    window.location.href = `mailto:kennyolajirepro@gmail.com?subject=${subject}&body=${body}`;
+  });
+</script>
+<script src="assets/main.js"></script>
+</body>
+</html>
