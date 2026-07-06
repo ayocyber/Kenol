@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kenol.vercel.app//sitemap.xml
